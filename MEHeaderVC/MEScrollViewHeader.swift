@@ -61,9 +61,8 @@ class MEStretchyHeader: NSObject {
         }
     }
     
-    /// Dealloc
     deinit {
-        self.containerHeaderView = nil
+        self.view = nil
     }
     
     // MARK: KVO

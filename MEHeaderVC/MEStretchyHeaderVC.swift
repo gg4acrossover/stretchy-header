@@ -55,6 +55,7 @@ private extension MEStretchyHeaderVC {
         imgView.tag = kHeaderTag
         
         self.tableView.stretchyHeader.view = imgView
+        self.tableView.stretchyHeader.view = imgView
         self.tableView.stretchyHeader.minimumHeight = 64.0
         self.tableView.stretchyHeader.delegate = self
         
